@@ -152,14 +152,14 @@ li a:hover {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background: lightgoldenrodyellow;
+    background: #F3FDE8;
 }
 
 /* About - End / Poster Start */
 
 .image-block { 
     padding: 50px;
-    background-color: antiquewhite;
+    background-color: #FFE5E5;
 }
 .image-block h1 {
     padding-bottom: 30px;
@@ -172,6 +172,7 @@ li a:hover {
 .poster img {
     width: 200px;
     height: 300px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
 }
 
 /* Poster End / Achive Start */
@@ -179,7 +180,7 @@ li a:hover {
 .achive-block {
     display: flex;
     justify-content: space-around;
-    background-color: bisque;
+    background-color: #FFBFBF;
     text-align: center;
     padding: 100px 20px;
 }
