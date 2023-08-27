@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/background.jpg);
 }
 
 /* NavBar - Start */
@@ -147,12 +148,11 @@ li a:hover {
 .about-block {
     width: auto;
     margin: 0 auto;
-    padding: 30px;
+    padding: 50px 30px;
     display: flex;
     justify-content: space-around;
     text-align: center;
     background: lightgoldenrodyellow;
-    color: #2b2839;
 }
 
 /* About - End / Poster Start */
@@ -181,7 +181,7 @@ li a:hover {
     justify-content: space-around;
     background-color: bisque;
     text-align: center;
-    padding: 100px 20px 50px;
+    padding: 100px 20px;
 }
 
 .achive-block img {
@@ -191,7 +191,32 @@ li a:hover {
 }
 
 .achive-block h3 {
-    padding-top: 30px;
+    padding-top: 50px;
+}
+
+/* Achive End / Footer Start */
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    background-color: crimson;
+}
+
+.footer h2 {
+    color: black;
+    margin-bottom: 1rem
+}
+
+.social-icons a {
+  color: wheat;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  padding: 10px 15px;
+}
+  
+.social-icons a:hover {
+    background-color: #222;
+    border-radius: 5px;
 }
 
 
