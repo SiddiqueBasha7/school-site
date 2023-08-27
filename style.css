@@ -105,10 +105,10 @@ li a:hover {
 .details a:hover {
     background-color: palevioletred;
 }
-.details:hover span{
+.tel-num:hover span{
     display: none;
 }
-.details:hover a:after{
+.tel-num:hover a:after{
     content: '📞 +917358356611';
 }
 
