@@ -156,17 +156,37 @@ li a:hover {
 
 /* About - End / Poster Start */
 
-.image-block {
-    display: flex;
-    justify-content: space-around;
+.image-block {  
     background-color: antiquewhite;
 }
 
+.poster {
+    display: flex;
+    justify-content: space-around;
+}
 .poster img {
     width: 200px;
     height: 300px;
 }
 
 /* Poster End / Achive Start */
+
+.achive-block {
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    text-align: center;
+    padding: 100px 20px 50px;
+}
+
+.achive-block img {
+    border: 5px solid crimson;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.achive-block h3 {
+    padding-top: 30px;
+}
 
 
