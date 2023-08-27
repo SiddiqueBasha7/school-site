@@ -103,9 +103,14 @@ li a:hover {
 }
 
 .details a:hover {
-    background-color: coral;
+    background-color: palevioletred;
 }
-
+.details:hover span{
+    display: none;
+}
+.details:hover a:after{
+    content: '📞 +917358356611';
+}
 
 @keyframes animate {
     0%, 100%{
@@ -149,4 +154,19 @@ li a:hover {
     color: #2b2839;
 }
 
-/* About - End / */
+/* About - End / Poster Start */
+
+.image-block {
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+.poster img {
+    width: 200px;
+    height: 300px;
+}
+
+/* Poster End / Achive Start */
+
+
