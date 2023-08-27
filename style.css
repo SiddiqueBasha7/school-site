@@ -139,6 +139,7 @@ li a:hover {
     margin-top: 600px;
 }
 .about-text p{
+    text-align: left;
     margin-top: 20px;
     padding-left: 30px;
 }
@@ -156,10 +157,14 @@ li a:hover {
 
 /* About - End / Poster Start */
 
-.image-block {  
+.image-block { 
+    padding: 50px;
     background-color: antiquewhite;
 }
-
+.image-block h1 {
+    padding-bottom: 30px;
+    text-align: center;
+}
 .poster {
     display: flex;
     justify-content: space-around;
