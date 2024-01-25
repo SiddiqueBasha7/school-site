@@ -72,7 +72,7 @@ a.active,a:hover{
 @media (max-width: 952px){
     label.logo{
       font-size: 20px;
-      padding-left: 50px;
+      padding-left: 25px;
     }
     nav ul li a{
       font-size: 16px;
@@ -228,6 +228,12 @@ a.active,a:hover{
     .quote {
         width: 80%;
     }
+    .about-text p {
+        font-size: .75em;
+        text-align: justify;
+        padding: 0 25px;
+        line-height: 2cap; 
+    }
     .about-text  h3 {
         margin-top: 35px;
     }
@@ -235,10 +241,12 @@ a.active,a:hover{
         margin-top: 10px;
     }
     .about-block, .about {
+        margin-top: 30px;
         display: flex;
         flex-wrap: wrap;
         width: auto;
-        padding: 15px;
+        padding: 10px;
+        padding-bottom: 30px;
         
     }
     
@@ -388,5 +396,8 @@ fieldset {
     }
     .about p, .vision p, .mission p {
         padding: 20px;
+        font-size: 1.3em;
+        text-align: justify;
+        line-height: 2cap; 
     } 
 }
