@@ -1,3 +1,11 @@
+:root {
+    --main-red: crimson;
+    --about-sec: #F3FDE8;
+    --image-sec: #ffe5e5;
+    --achive-sec: #FFBFBF;
+
+}
+
 * {
     text-decoration: none;
     margin: 0;
@@ -18,7 +26,7 @@ body {
 
 /* NavBar - Start */
 nav{
-    background: crimson;
+    background: var(--main-red);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 80px;
     width: 100%;
@@ -221,7 +229,7 @@ a.active,a:hover{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background: #F3FDE8;
+    background: var(--about-sec);
 }
 
 @media (max-width: 858px) {
@@ -257,7 +265,7 @@ a.active,a:hover{
 .image-block {
     width: 100%; 
     padding: 80px 0;
-    background-color: #ffe5e5;
+    background-color: var(--image-sec);
 }
 .image-block h1 {
     padding-bottom: 70px;
@@ -291,7 +299,7 @@ a.active,a:hover{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: #FFBFBF;
+    background-color: var(--achive-sec);
     text-align: center;
     padding: 100px 20px;
 }
@@ -320,7 +328,7 @@ a.active,a:hover{
 .footer {
     padding: 30px;
     text-align: center;
-    background-color: crimson;
+    background-color: var(--main-red);
 }
 
 .footer h2 {
@@ -394,6 +402,9 @@ fieldset {
 @media (max-width: 858px) {
     .about {
         padding: 20px;
+    }
+    .about img {
+        height: auto;
     }
     .about p, .vision p, .mission p {
         padding: 20px;
