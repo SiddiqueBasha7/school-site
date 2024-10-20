@@ -697,14 +697,47 @@ hr {
   text-shadow: 0px 0px 5px whitesmoke;
 }
 
+/* Gallery Begins */
 
-
-.gallery {
+.gal-body{
+  background: url(https://res.cloudinary.com/ritalbradley/image/upload/v1657644013/pexels-elijah-o_donnell-3473569_o7ohfd.jpg)
+  center center/cover no-repeat;
+  min-height: 100vh;
+  display: -webkit-flex;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
-.gallery img {
-  width: 100px; /* or any other size */
-  margin: 5px;
+
+.gal-title{
+  color: #fefae0;
+  font-family: Amita;
+  margin: 20px auto;
+  max-width: 450px;
+  min-width: 300px;
+  font-size: 3rem;
+  text-align: center;
+  border-bottom: 10px double #bc6c25;
+}
+.gal-pic{
+width: 450px;
+min-width: 300px;
+height: 300px;
+margin: 10px;
+border: 10px solid #fefae0;
+transition-duration: 1s;
+}
+
+.gal-pic:hover{
+  border: 5px solid #fff;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.gallery-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
