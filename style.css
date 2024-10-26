@@ -733,6 +733,16 @@ transition-duration: 1s;
 
 
 /* Courses Begin */
+.w3-row .sub-head{
+  font-size: x-large;
+  border-radius: 8px 8px 0px 0px;
+}
+.w3-row .sub-head:hover{
+  background-color: rgb(236, 161, 161);
+}
+.red-col-tab {
+  background-color: rgb(236, 161, 161);
+}
 .w3-container h3{
   padding: 15px;
 }
@@ -744,7 +754,7 @@ transition-duration: 1s;
 }
 .city {
   margin: auto 25px;
-  font-size: medium;
+  font-size: larger;
 }
 @media screen and (max-width: 569px) {
   .w3-container h3 {

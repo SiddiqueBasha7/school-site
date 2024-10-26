@@ -33,13 +33,13 @@
 
         <div class="w3-row">
             <a href="javascript:void(0)" onclick="openCity(event, 'English');">
-                <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-border-red">Hindi</div>
+                <div class="w3-third tablink w3-bottombar w3-padding w3-border-red sub-head red-col-tab">Hindi</div>
             </a>
             <a href="javascript:void(0)" onclick="openCity(event, 'Hindi');">
-                <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">English</div>
+                <div class="w3-third tablink w3-bottombar w3-padding sub-head">English</div>
             </a>
             <a href="javascript:void(0)" onclick="openCity(event, 'School-sub');">
-                <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Academic subjects</div>
+                <div class="w3-third tablink w3-bottombar w3-padding sub-head">Academic subjects</div>
             </a>
             </div>
 
@@ -83,9 +83,11 @@
           tablinks = document.getElementsByClassName("tablink");
           for (i = 0; i < x.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+            tablinks[i].className = tablinks[i].className.replace(" red-col-tab", "");
           }
           document.getElementById(cityName).style.display = "block";
           evt.currentTarget.firstElementChild.className += " w3-border-red";
+          evt.currentTarget.firstElementChild.className += " red-col-tab";
         }
     </script>
     </body>
