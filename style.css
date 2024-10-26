@@ -716,9 +716,9 @@ hr {
   align-items: center;
 }
 .gal-pic, .gal-vid{
-width: 450px;
+width: 300px;
 min-width: 300px;
-height: 300px;
+height: 500px;
 margin: 10px;
 border: 10px solid #fefae0;
 transition-duration: 1s;
