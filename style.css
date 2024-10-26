@@ -78,7 +78,7 @@ a.active,a:hover{
 #check{
     display: none;
 }
-@media (max-width: 952px){
+@media (max-width: 1024px){
     label.logo{
       font-size: 20px;
       padding-left: 25px;
@@ -699,15 +699,6 @@ hr {
 
 /* Gallery Begins */
 
-.gal-body{
-  background: url(https://res.cloudinary.com/ritalbradley/image/upload/v1657644013/pexels-elijah-o_donnell-3473569_o7ohfd.jpg)
-  center center/cover no-repeat;
-  min-height: 100vh;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
-}
-
 .gal-title{
   color: #fefae0;
   font-family: Amita;
@@ -718,7 +709,13 @@ hr {
   text-align: center;
   border-bottom: 10px double #bc6c25;
 }
-.gal-pic{
+.gallery-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gal-pic, .gal-vid{
 width: 450px;
 min-width: 300px;
 height: 300px;
@@ -727,17 +724,31 @@ border: 10px solid #fefae0;
 transition-duration: 1s;
 }
 
-.gal-pic:hover{
+.gal-pic:hover, .gal-vid:hover{
   border: 5px solid #fff;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-.gallery-page {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
 
+/* Courses Begin */
+.w3-container h3{
+  padding: 15px;
+}
+.w3-container h5 {
+  font-weight: 600;
+}
+.w3-container q {
+  background-color: #f4d58d;
+}
+.city {
+  margin: auto 25px;
+  font-size: medium;
+}
+@media screen and (max-width: 569px) {
+  .w3-container h3 {
+    padding: 15px;
+    text-align: center;
+  }
+}
